@@ -43,8 +43,14 @@ nav ul li a:active {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    max-width: 400px;
+    margin: auto;
 }
 
+.contact input,
+.contact textarea {
+    padding: 10px;
+    border: 
 footer {
     background-color: rgb(57, 49, 49);
     color: red;
@@ -57,4 +63,5 @@ main {
     padding: 20px;
 
 }
+
 
